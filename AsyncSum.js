@@ -3,6 +3,7 @@ function PresentResults(res) {
     console.log(res.greet);
     console.log("The results of the sum were " + res.sum);
     console.log("Thanks!");
+    return res.sum;
 }
 
 async function AsyncSum(num1, num2) {
